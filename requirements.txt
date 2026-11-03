@@ -1,3 +1,7 @@
+# pip index options — functional, not comments; required to resolve the +cu118 wheels
+--extra-index-url https://download.pytorch.org/whl/cu118
+--find-links https://data.pyg.org/whl/torch-2.0.1+cu118.html
+
 numpy==1.24.4
 scipy==1.10.1
 torch==2.0.1+cu118
